@@ -1,0 +1,121 @@
+{
+  "basics": {
+    "name": "Allan Andrews N. Tacuel",
+    "label": "BS Computer Science - AI Specialization",
+    "email": "allanandrews.tacuel@wvsu.edu.ph",
+    "phone": "+63 967 380 7262",
+    "location": "Iloilo, Philippines",
+    "summary": "Visuals-focused artist-programmer experienced in Programming, Technical Writing, UI/UX Prototyping, Visual Production, and Game Development.",
+    "links": [
+      {
+        "label": "ArtStation",
+        "url": "https://liyanmata.artstation.com"
+      },
+      {
+        "label": "Pixiv",
+        "url": "https://www.pixiv.net/users/100520730"
+      },
+      {
+        "label": "Github",
+        "url": "https://github.com/allantacuelwvsu"
+      },
+      {
+        "label": "Website",
+        "url": "allantacuelwvsu.github.io"
+      }
+    ]
+  },
+  "skills_categories": [
+    {
+      "category": "General Programming Literacy",
+      "items": [
+        "C++",
+        "Python",
+        "C",
+        "C#",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git"
+      ]
+    },
+    {
+      "category": "AI & Data Analysis",
+      "items": [
+        "Python",
+        "Jupyter Notebook",
+        "Streamlit",
+        "Hugging Face"
+      ]
+    },
+    {
+      "category": "App & Frontend Web Development",
+      "items": [
+        "Electron",
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "Wordpress"
+      ]
+    },
+    {
+      "category": "Technical Writing",
+      "items": [
+        "MS Office Suite (Word",
+        "Excel)"
+      ]
+    },
+    {
+      "category": "UI/UX & Design",
+      "items": [
+        "Canva",
+        "Figma",
+        "Framer"
+      ]
+    },
+    {
+      "category": "Visual Production",
+      "items": [
+        "Krita",
+        "Clip Studio Paint",
+        "Blender"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Freelance & Personal Projects",
+      "role": "2D Artist / App Developer",
+      "timeline": "Active",
+      "details": "Takes freelance projects covering digital illustration, web-development, and utility application production via HTML/CSS/JS pipelines."
+    },
+    {
+      "company": "GoveSmart Solutions Inc. / PH Digimark",
+      "role": "Frontend Developer",
+      "timeline": "Feb - Apr 2026",
+      "details": "Took on the role of frontend developer for company product \"Iloilo Properties\", a property-listing website hosted in Iloilo. Primarily used Wordpress Elementor and JetEngine as per company assignment."
+    }
+  ],
+  "education_timeline": [
+    {
+      "institution": "West Visayas State University - Main Campus",
+      "degree": "Bachelor of Science in Computer Science - AI Specialization",
+      "timeline": "2022 - 2026",
+      "location": "Iloilo City, Philippines"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ND-Fighter",
+      "role": "Project Co-Lead / Key Writer / Art Director & Producer",
+      "context": "Undergraduate Thesis | 2024-2026",
+      "description": "A Godot-developed fighting game produced to test the neural-network plus traditional game AI technique we have developed called 'Neuro-Dynamic Scripting', an LSTM-augmented decision-making game AI technique.",
+      "highlights": [
+        "Acted as Technical Lead, converting updating product requirements into actionable development tasks.",
+        "Authored and managed core thesis documentation while aligning the programming team's execution with academic objectives.",
+        "Designed the game's core Neural-Network + AI hybrid structure",
+        "Produced 2D frame animations for the Godot game."
+      ]
+    }
+  ]
+}

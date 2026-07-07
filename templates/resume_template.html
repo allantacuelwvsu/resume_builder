@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$NAME - Resume</title>
+    <style>
+        :root { --primary-color: #E68A5C; --text-dark: #2C2C2C; --text-muted: #555555; }
+        @media screen {
+            body { background: #F0F2F5; padding: 40px 20px; }
+            .resume-container { background: #FFFFFF; max-width: 800px; margin: 0 auto; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 50px; }
+        }
+        @media print {
+            body { background: #FFFFFF; color: var(--text-dark); }
+            .resume-container { padding: 0; }
+            @page { size: A4; margin: 20mm; }
+            .project-block { page-break-inside: avoid; }
+        }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; color: var(--text-dark); line-height: 1.5; margin: 0; }
+        .header-section { text-align: center; margin-bottom: 25px; }
+        .header-section h1 { color: var(--primary-color); font-size: 28px; font-weight: 400; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 5px 0; }
+        .header-section .subtitle { color: var(--primary-color); font-size: 18px; font-style: italic; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 15px 0; }
+        .contact-grid { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; font-size: 13px; color: var(--text-muted); }
+        .contact-grid a { color: var(--text-muted); text-decoration: none; }
+        .section-title { text-align: center; color: var(--primary-color); font-size: 18px; font-style: italic; text-transform: uppercase; letter-spacing: 1.5px; margin: 30px 0 10px 0; }
+        hr { border: none; border-top: 1px solid var(--primary-color); margin: 5px 0 20px 0; }
+        p { font-size: 14px; margin: 0 0 15px 0; text-align: justify; }
+        .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; }
+        .skills-column ul { margin: 0; padding-left: 20px; }
+        .skills-column li { font-size: 14px; margin-bottom: 6px; list-style-type: none; }
+        .project-block { margin-bottom: 25px; }
+        .project-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 5px; }
+        .project-meta-left { font-size: 14px; }
+        .project-title { font-weight: bold; }
+        .project-role { font-style: italic; color: var(--text-muted); }
+        .project-date { font-size: 14px; font-weight: bold; text-align: right; }
+        ul.highlights-list { margin: 8px 0 0 0; padding-left: 20px; }
+        ul.highlights-list li { font-size: 13.5px; margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+<div class="resume-container">
+    <div class="header-section">
+        <h1>$NAME</h1>
+        <div class="subtitle">$LABEL</div>
+        <div class="contact-grid">$LINKS_GRID</div>
+    </div>
+
+    <div class="section-title">Professional Profile</div>
+    <hr>
+    <p>$SUMMARY</p>
+
+    <div class="section-title">Core Skills</div>
+    <hr>
+    <div class="skills-grid">$SKILLS_CONTAINER</div>
+
+    <div class="section-title">Experience</div>
+    <hr>
+    $EXPERIENCE_BLOCK
+
+    <div class="section-title">Education Timeline</div>
+    <hr>
+    $EDUCATION_TIMELINE_BLOCK
+
+    <div class="section-title">Projects Portfolio</div>
+    <hr>
+    $PROJECTS
+</div>
+</body>
+</html>
